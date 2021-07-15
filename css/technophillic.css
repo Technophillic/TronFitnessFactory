@@ -9,3 +9,13 @@ body{
     background-color: #132436;
     color: white;
 }
+.btn-header{
+    background-color: #132436;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-header:hover{
+    background-color: #868218;    
+}
