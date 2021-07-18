@@ -2,20 +2,52 @@ body{
     background-color: black;
 }
 #header{
-    background-color: #132436;
-    color: #f7f020;
+    background-color: rgba(19, 36, 54,1);
+    /*background-color: #132436;
+    color: #f7f020;*/
 }
 #footer{
     background-color: #132436;
     color: white;
+    margin: 0px;
+    height: fit-content;
+    overflow-y: hidden;
+    padding-bottom: 20px;
 }
 .btn-header{
     background-color: #132436;
     color: white;
-    padding: 10px;
+    padding: 35px;
     padding-left: 20px;
     padding-right: 20px;
 }
-.btn-header:hover{
-    background-color: #868218;    
+.link-footer{
+    background-color: #868218;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+.btn-header:hover, .link-footer:hover{
+    background-color: #868218;
+    color: white;    
+}
+.btn-header.active{
+    background-color: #132413;
+}
+
+.logo-header{
+    width: 100px;
+}
+.logo-header > img{
+    max-width: 100px;
+    margin-right: 30px;
+}
+.div-underline{
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
 }
