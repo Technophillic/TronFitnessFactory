@@ -8,11 +8,12 @@
     <?php include_once "common/bootstrap.html"?>
     <style>
         body{
-            background: url("img/b3.jpg");
+            background: url("img/b2.jpg");
+            background-size: cover;
             background-attachment: fixed;
         }
         div.col-md-4{
-            height: 400px !important;
+            
         }
         .trans-gray{
             background-color: rgba(255,255,255,0.30);
@@ -24,7 +25,9 @@
     <div class="container p-5">
         <div class="row p-0 text-light">
             <div class="col-md-4 trans-gray">Contact</div>
-            <div class="col-md-8 trans-gray">Map</div>
+            <div class="col-md-8 trans-gray p-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d470167.20540533337!2d72.618324!3d22.98036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x83435bb02b385354!2sTron%20Fitness%20Factory!5e0!3m2!1sen!2sus!4v1626798752233!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
     </div>
     <?php include_once "common/footer.html"?>
