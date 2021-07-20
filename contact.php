@@ -24,7 +24,15 @@
     <?php include_once "common/header.html"?>
     <div class="container p-5">
         <div class="row p-0 text-light">
-            <div class="col-md-4 trans-gray">Contact</div>
+            <div class="col-md-4 trans-gray"><h4><i class="fa fa-map-marker" aria-hidden="true">Store information</h4></i>
+    <p>Shop No.201, Empire Hub,Ghodasar Cross Rd,Ghodasar,Ahmedabad,Gujarat 380050</p>
+<hr class="row">
+<h4><i class="fa fa-phone" aria-hidden="true">Call us</h4></i>
+<p>+91 80531-60555</p>
+<hr class="row">
+<h4><i class="fa fa-envelope" aria-hidden="true"> Email Us</i></h4>
+            <p>gnikhil@email.com</p></p>
+        </div>
             <div class="col-md-8 trans-gray p-0">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d470167.20540533337!2d72.618324!3d22.98036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x83435bb02b385354!2sTron%20Fitness%20Factory!5e0!3m2!1sen!2sus!4v1626798752233!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
