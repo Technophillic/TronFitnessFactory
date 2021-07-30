@@ -16,15 +16,15 @@
             
         }
         .trans-gray{
-            background-color: rgba(255,255,255,0.30);
+            background-color: rgba(255,255,255,0.50);
         }
     </style>
 </head>
 <body>
     <?php include_once "common/header.html"?>
     <div class="container p-5">
-        <div class="row p-0 text-light">
-            <div class="col-md-4 trans-gray"><h4><i class="fa fa-map-marker" aria-hidden="true"> Store information</h4></i>
+        <div class="row p-0 text-dark">
+            <div class="col-md-4 pt-5 trans-gray"><h4><i class="fa fa-map-marker" aria-hidden="true"> Store information</h4></i>
     <p>Shop No.201, Empire Hub,Ghodasar Cross Rd,Ghodasar,Ahmedabad,Gujarat 380050</p>
 <hr class="row">
 <h4><i class="fa fa-phone" aria-hidden="true"> Call us</h4></i>
