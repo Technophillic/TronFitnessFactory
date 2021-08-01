@@ -52,13 +52,16 @@
   function php_email_form_submit(thisForm, action, formData) {
     fetch(action, {
       method: 'POST',
+      crossDomain: true,
+      
       body: formData,
-      headers: {'X-Requested-With': 'XMLHttpRequest'}
+      headers: { 'Access-Control-Request-Methods':'POST', 'Access-Control-Allow-Origin':'*'}
     })
     .then(response => {
       if( response.ok ) {
         return response.text()
       } else {
+        //alert("Here");;
         throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
       }
     })
